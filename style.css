@@ -1,25 +1,23 @@
 body{
-    background-image: url(immagini/1144579\ \(1\).jpg);
-    background-repeat: no-repeat;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
     background-size: cover;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    font-family: 'Courier New', Courier, monospace
+
     
 }
 
 .header{
-    font-size: xx-large;
-    color: rgb(255, 255, 255);
-    background-color: transparent;
+    font-size: large;
+    color: red;
+    background-color: black;
     text-align: center;   
-    margin-top: 10px;
-    margin-bottom: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    padding: 25px;
+    height: 10px;
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -28,7 +26,6 @@ body{
     font-size: 25px;
     display: flex;
     justify-content: center;
-    color:white;
     background-color: rgb(0, 0, 0);
  
 }
@@ -60,6 +57,53 @@ body{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
+
+
+
+
+
+
+.anatomia{
+    padding: 50px 20px;
+    background-color: #1D1D1D; /* sfondo scuro elegante */
+    color: #ffffff;
+    border-radius: 30px;
+    margin: 10px 0;
+}
+
+.contenuto{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+.immagine img {
+    width: 200px;
+    height: auto;;
+    border-radius: 20px; 
+    align-items: left;
+}
+
+.testo{
+    flex: 1;
+    align-items: right; 
+}
+#petto{
+
+    background-color: blue;
+}
+
+#schiena{
+    background-color: black;
+}
+
+#bicipite{
+    background-color: pink;
+}
+
+
+
+
+
 
 .footer{
     background-color: black;
