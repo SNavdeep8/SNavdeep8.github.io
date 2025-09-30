@@ -88,6 +88,7 @@ body{
     align-items: right; 
     display:flex;
     justify-content: flex-end;
+    padding-right: 40px;
 }
 #petto{
 
