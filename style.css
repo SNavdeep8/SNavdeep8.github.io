@@ -83,6 +83,14 @@ body{
     align-items: left;
 }
 
+.immagine2 img {
+    width: 200px;
+    height: auto;;
+    border-radius: 20px; 
+    align-items: right;
+}
+
+
 .testo{
     flex: 1;
     align-items: right; 
