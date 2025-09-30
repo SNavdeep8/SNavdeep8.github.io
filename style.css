@@ -85,8 +85,9 @@ body{
 }
 
 .testo{
-    flex: 1;
     align-items: right; 
+    display:flex;
+    justify-content: flex-end;
 }
 #petto{
 
