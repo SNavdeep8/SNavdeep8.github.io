@@ -83,10 +83,6 @@ body{
     align-items: left;
 }
 
-.contenuto.reverse{
-    flex-direction:row-reverse;
-}
-
 .testo{
     flex: 1;
     align-items: right; 
