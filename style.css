@@ -1,18 +1,16 @@
-body{
+body {
     background-color: white;
     font-family: 'Courier New', Courier, monospace;
     background-size: cover;
     margin: 0;
     padding: 0;
-
-    
 }
 
-.header{
+.header {
     font-size: large;
     color: red;
     background-color: black;
-    text-align: center;   
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,98 +20,97 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.menu{ 
+.menu {
     font-size: 25px;
     display: flex;
     justify-content: center;
     background-color: rgb(0, 0, 0);
- 
 }
 
-.menu ul{
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        gap: 10px;
-        border-radius: 20px;
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    border-radius: 20px;
 }
 
-.menu ul li{
+.menu ul li {
     margin: 6px 25px;
     padding: 5px;
-    
 }
 
-.menu ul li a{
+.menu ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     transition: transform 0.2s ease, background-color 0.3s ease;
-    
 }
 
-.menu ul li a:hover{
+.menu ul li a:hover {
     padding: 2px 45px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
 
-
-
-
-
-
-.anatomia{
+.anatomia {
     padding: 50px 20px;
-    background-color: #1D1D1D; /* sfondo scuro elegante */
+    background-color: #1D1D1D;
     color: #ffffff;
     border-radius: 30px;
     margin: 10px 0;
 }
 
-.contenuto{
+.contenuto {
     display: flex;
     align-items: center;
     gap: 0px;
 }
+
 .immagine img {
     width: 200px;
-    height: auto;;
-    border-radius: 20px; 
+    height: auto;
+    border-radius: 20px;
     align-items: left;
 }
 
-.testo{
-    align-items: right; 
-    display:flex;
+.testo {
+    flex: 1;
+    align-items: right;
+}
+
+/* Solo per il petto, testo allineato a destra */
+.contenuto.align-right {
+    justify-content: space-between;
+}
+
+.contenuto.align-right .testo {
+    display: flex;
     justify-content: flex-end;
+    text-align: right;
+    width: 100%;
     padding-right: 40px;
 }
-#petto{
 
+#petto {
     background-color: blue;
 }
 
-#schiena{
+#schiena {
     background-color: black;
 }
 
-#bicipite{
+#bicipite {
     background-color: pink;
 }
 
-
-
-
-
-.footer{
+.footer {
     background-color: black;
     color: white;
-    padding: 10px 0 ;
+    padding: 10px 0;
     width: 100%;
     text-align: center;
-    position: fixed;   
+    position: fixed;
     bottom: 0;
 }
-
