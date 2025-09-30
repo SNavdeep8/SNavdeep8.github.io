@@ -8,7 +8,7 @@ body {
 
 .header {
     font-size: large;
-    color: red;
+    color: yellow;
     background-color: black;
     text-align: center;
     display: flex;
@@ -52,11 +52,12 @@ body {
     padding: 2px 45px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    transform: scale(1.5);
 }
 
 .anatomia {
     padding: 50px 20px;
-    background-color: #1D1D1D;
+    /* background-color:black; */
     color: #ffffff;
     border-radius: 30px;
     margin: 10px 0;
@@ -94,7 +95,7 @@ body {
 }
 
 #petto {
-    background-color: blue;
+    background-color: black;
 }
 
 #schiena {
@@ -102,7 +103,7 @@ body {
 }
 
 #bicipite {
-    background-color: pink;
+    background-color: black;
 }
 
 .footer {
