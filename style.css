@@ -1,151 +1,157 @@
 body {
-    background-color: white;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .header {
-    font-size: large;
-    color: yellow;
-    background-color: black;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
-    height: 20px;
-    width: 100%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  
-  .menu {
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
-  }
-  
-  .menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 10px;
-  }
-  
-  .menu ul li {
-    position: relative;
-  }
-  
-  .menu ul li a {
-    display: inline-block;
-    padding: 10px 15px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease, transform 0.3s ease;
-  }
-  
-  .menu ul li a:hover {
-    color: orange;
-    transform: scale(1.3);
-  }
-  
-
-  
+  background-color: rgb(0, 0, 0);
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
 
 
+.header {
 
-  .dropdown .submenu {
-    display: none;
-    position: absolute;
-    background-color: black;
-    top: 100%;
-    left: 0;
-    padding: 0;
-    margin: 0;
-    min-width: 150px;
-    list-style: none;
-    z-index: 999;
-    border-radius: 15px;
-  }
-  
-  .dropdown:hover .submenu {
-    display: block;
-  }
-  
-  .submenu li a {
-    display: block;
-    padding: 20px 20px;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    white-space: nowrap;
-    border-radius: 15px;
-  }
-  
-  .submenu li a:hover {
-    background-color: black;
-    color: orange;
-    border-radius: 15px;
-    transform: scale(1.3);
-  }
-  
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem 0;
+  width: 100%;
+}
 
-  
+.header h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
 
+.menu {
+  font-size: 1.6rem; 
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  gap: 10px; 
+}
 
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px; 
+}
 
+.menu ul li {
+  position: relative;
+}
 
+.menu ul li a {
+  display: inline-block;
+  padding: 1; 
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
 
-
-  .anatomia {
-    padding: 50px 20px;
-    background-color: black;
-    color: white;
-    border-radius: 30px;
-    margin: 10px 0;
-  }
-  
-  .contenuto {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .immagine img {
-    width: 200px;
-    height: auto;
-    border-radius: 20px;
-  }
-  
-  .testo {
-    flex: 1;
-  }
-  
-  .contenuto.align-right {
-    justify-content: space-between;
-  }
-  
-  .contenuto.align-right .testo {
-    display: flex;
-    justify-content: flex-end;
-    text-align: right;
-    width: 100%;
-    padding-right: 40px;
-  }
-  
+.menu ul li a:hover {
+  color: orange;
+  transform: scale(1.3);
+}
 
 
+.dropdown .submenu {
+  display: none;
+  position: absolute;
+  background-color: black;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  border-radius: 10px;
+}
 
-  .footer {
-    background-color: black;
-    color: white;
-    padding: 10px 0;
-    width: 100%;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-  }
+.dropdown:hover .submenu {
+  display: block;
+}
+
+.submenu li a {
+  display: block;
+  padding: 1.25rem 1.25rem; /* 20px 20px */
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem; /* ~20px */
+  white-space: nowrap;
+  border-radius: 0.625rem;
+}
+
+.submenu li a:hover {
+  background-color: black;
+  color: orange;
+  border-radius: 10px;
+  transform: scale(1.3);
+}
+
+
+.intro-petto {
+  padding: 26px; 
+  text-align: center;
+  color: white;
+}
+
+.intro-petto h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.9375rem; /* ~15px */
+}
+
+.intro-petto p {
+  font-size: 1.5rem; 
+  line-height: 1.4;
+  max-width: 50rem; 
+  margin: 0 auto;
+}
+
+.centro {
+  min-height: 12.5rem; 
+  background-size: cover;
+  background-position: center;
+  /* se vuoi aggiungere immagine: */
+  /* background-image: url('/immagini/ciao.jpg'); */
+}
+
+.esercizi {
+  padding: 3rem; 
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px; 
+  margin: 0.5 0; 
+  color: white;
+}
+
+.contenuto {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem; 
+}
+
+
+.immagine img {
+  width: 20rem; 
+  height: auto;
+  border-radius: 0.625rem;
+  align-items: center;
+}
+
+.testo {
+  color: white;
   
+}
+
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 0.625rem 0; 
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
