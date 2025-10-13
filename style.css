@@ -91,6 +91,32 @@ body {
 }
 
 
+.hero {
+  height: 75vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+}
+
+.hero h1 {
+font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 5rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  opacity: 0.8; 
+}
+
+
+
+
+
+
 .intro-petto {
   padding: 26px; 
   text-align: center;
@@ -113,9 +139,7 @@ body {
   min-height: 12.5rem; 
   background-size: cover;
   background-position: center;
-  /* se vuoi aggiungere immagine: */
-  /* background-image: url('/immagini/ciao.jpg'); */
-}
+  }
 
 .esercizi {
   padding: 3rem; 
