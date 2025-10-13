@@ -145,6 +145,33 @@ body {
   
 }
 
+.tabelle {
+  padding: 2rem;
+  text-align: center;
+}
+
+.tabella {
+  margin: 1.5rem auto;
+  border-collapse: collapse;
+  width: 60%;
+  color: white;
+  border: 2px solid white;
+}
+
+.tabella td {
+  border: 1px solid white;
+  padding: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.tabella tr:hover td {
+  background-color: orange;
+  color: black;
+  transition: 0.3s ease;
+}
+
+
 
 .footer {
   background-color: black;
