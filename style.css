@@ -151,6 +151,7 @@ body {
 }
 
 .tabella {
+    padding-bottom: 120px;
   margin: 1.5rem auto;
   border-collapse: collapse;
   width: 60%;
@@ -165,12 +166,6 @@ body {
   text-align: center;
 }
 
-.tabella tr:hover td {
-  background-color: orange;
-  color: black;
-  transition: 0.3s ease;
-}
-
 
 
 .footer {
@@ -179,7 +174,7 @@ body {
   padding: 0.625rem 0; 
   width: 100%;
   text-align: center;
-  position: fixed;
+  position: relative;
   bottom: 0;
 }
 
