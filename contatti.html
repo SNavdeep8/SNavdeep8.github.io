@@ -3,51 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contattaci - Il Tricipite</title>
+    <title>Contattaci</title>
     <link rel="icon" href="immagini/logo3.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
+    <div class="contact-page-wrapper">
+      <div class="container">
         <div class="page-title">
-            <h1>Contattaci</h1>
-            <p>Scrivici per qualsiasi domanda o informazione</p>
+          <h1>Contattaci</h1>
+          <p>Scrivici per qualsiasi domanda o informazione</p>
         </div>
 
         <div class="contact-container">
-            <div class="contact-form">
-                <h2>Inviaci un Messaggio</h2>
-                <form action="https://formspree.io/f/xvgwjbra" method="post">
-                    <div class="form-group">
-                        <label for="name">Nome</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
+          <div class="contact-form">
+            <h2>Inviaci un Messaggio</h2>
+            <form action="https://formspree.io/f/xvgwjbra" method="post">
+              <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+              </div>
 
-                    <div class="form-group">
-                        <label for="surname">Cognome</label>
-                        <input type="text" id="surname" name="cognome" required>
-                    </div>
+              <div class="form-group">
+                <label for="surname">Cognome</label>
+                <input type="text" id="surname" name="cognome" required>
+              </div>
 
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
 
-                    <div class="form-group">
-                        <label for="subject">Oggetto</label>
-                        <input type="text" id="subject" name="subject" required>
-                    </div>
+              <div class="form-group">
+                <label for="subject">Oggetto</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
 
-                    <div class="form-group">
-                        <label for="message">Messaggio</label>
-                        <textarea id="message" name="message" rows="5" required></textarea>
-                    </div>
+              <div class="form-group">
+                <label for="message">Messaggio</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
 
-                    <button type="submit" class="btn">Invia Messaggio</button>
-                </form>
-            </div>
+              <button type="submit" class="btn">Invia Messaggio</button>
+            </form>
+          </div>
         </div>
+
+      </div>
     </div>
 
 </body>
