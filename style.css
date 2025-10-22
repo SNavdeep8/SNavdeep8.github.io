@@ -201,6 +201,88 @@ body {
   text-align: center;
 }
 
+
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+  padding: 2rem;
+}
+
+/* Titolo e sottotitolo */
+.page-title h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #2B7A78;
+}
+
+.page-title p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+  margin-bottom: 2rem;
+}
+
+/* Contenitore del form */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  background-color: #111;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(43, 122, 120, 0.5);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Etichette e input */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+
+label {
+  font-weight: bold;
+  color: #50C878;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid #2B7A78;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid #50C878;
+}
+
+/* Bottone */
+button {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #2B7A78;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #50C878;
+  transform: scale(1.05);
+}
+
 /* Footer */
 .footer {
   background-color: black;
@@ -211,6 +293,7 @@ body {
   position: relative;
   bottom: 0;
 }
+
 
 /* Responsive Media Queries */
 @media (max-width: 1024px) {
