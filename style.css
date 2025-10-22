@@ -209,64 +209,87 @@ body {
   padding: 2rem;
 }
 
-/* Titolo e sottotitolo */
-.page-title h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-  color: #2B7A78;
-}
-
-.page-title p {
-  font-size: 1.2rem;
-  opacity: 0.8;
-  margin-bottom: 2rem;
-}
-
 /* Contenitore del form */
-
-
-
 .contact-page-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 2rem;
   box-sizing: border-box;
 }
 
-.container {
+.page-title {
   text-align: center;
-  width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 2rem;
-  background-color: #111;
-  border-radius: 1rem;
-  box-shadow: 0 0 20px rgba(43, 122, 120, 0.4);
+  margin-bottom: 2rem;
 }
 
 .page-title h1 {
   font-size: 2.5rem;
-  color: #2B7A78;
+  color: white;
   margin-bottom: 0.5rem;
 }
 
 .page-title p {
   font-size: 1.2rem;
-  opacity: 0.8;
-  margin-bottom: 1.5rem;
   color: #fff;
+  opacity: 0.8;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  background-color: #111;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px #E5E4E2;
+  width: 100%;
+  max-width: 500px;
 }
 
 .form-group {
-  margin-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
 }
 
 label {
   font-weight: bold;
-  color: #50C878;
+  color: #E5E4E2;
 }
+
+input, textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid #E5E4E2;
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+  outline: 2px solid red;
+}
+
+button {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #E5E4E2;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 
 /* Footer */
 .footer {
@@ -278,7 +301,6 @@ label {
   position: relative;
   bottom: 0;
 }
-
 
 /* Responsive Media Queries */
 @media (max-width: 1024px) {
