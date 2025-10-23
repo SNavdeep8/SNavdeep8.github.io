@@ -298,9 +298,20 @@ button {
   padding: 0.625rem 0;
   width: 100%;
   text-align: center;
+  position: realtive;
+  bottom: 0;
+}
+
+.footer-fisso {
+  background-color: black;
+  color: white;
+  padding: 0.625rem 0;
+  width: 100%;
+  text-align: center;
   position: fixed;
   bottom: 0;
 }
+
 
 /* Responsive Media Queries */
 @media (max-width: 1024px) {
@@ -355,4 +366,5 @@ button {
     padding: 0.5rem;
   }
 }
+
 
